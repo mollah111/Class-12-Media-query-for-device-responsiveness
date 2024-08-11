@@ -1,0 +1,1 @@
+# Class-12-Media-query-for-device-responsiveness
