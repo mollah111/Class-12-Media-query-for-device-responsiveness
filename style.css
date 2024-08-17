@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    background-image: url('images/Natural.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    overflow: hidden;
+    color: aqua;
+}
+
+.project{
+    width: 100%;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.project-item{
+    float: left;
+    height: 200px;
+    width: 32%;
+    background-image: url('images/P-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: beige;
+
+}
+
+.footer{
+    height: 150px;
+    background-color: rgb(243, 111, 71);
+    color: white;
+    margin-top: 5px;
+}
+
+.footer-item{
+    width: 33%;
+    float: left;
+    margin-top: 10px;
+}
+
+.link{
+    text-decoration: none;
+    color: beige;
+    display: block;
+    margin-top: 3px;
+}
+
+/* Device Reponsive.... */
+
+@media screen and (max-width: 749px){
+    .hero{
+        color: red;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .project-item{
+        width: 31%;
+    }
+}
+
+@media screen and (max-width: 429px) {
+    .project-item{
+        width: 29.5%;
+    }
+}
+
+
+@media screen and (max-width: 390px) {
+    .project-item{
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .project-item{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    .project-item{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 355px) {
+    .hero{
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .footer-item{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .footer-item{
+        width: 28%;
+    }
+}
+
+@media screen and (max-width: 295px) {
+    .footer-item{
+        width: 95%;
+    }
+}
